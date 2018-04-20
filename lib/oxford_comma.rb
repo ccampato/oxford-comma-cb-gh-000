@@ -3,3 +3,5 @@ def oxford_comma(array)
   string_conversion = array.join(", ")
   string_conversion << last_word
 end
+
+oxford_comma(array)
