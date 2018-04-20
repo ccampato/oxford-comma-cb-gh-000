@@ -4,6 +4,6 @@ def oxford_comma(a)
   elsif a.length == 2
     a.join(" and ")  
   else
-    "#{a[0, a.length-1].join(", ")}, and #{a.last}"
+    "#{a[0...-1].join(", ")}, and #{a.last}"
   end
 end
