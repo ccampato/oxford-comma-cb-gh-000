@@ -1,5 +1,6 @@
 def oxford_comma(array)
   puts last_word = array.pop
+  puts last_word << "and "
   string_conversion = array.join(", ")
   string_conversion << last_word
 end
