@@ -3,4 +3,5 @@ def oxford_comma(a)
     a[0]
   else
     "#{a[0, a.length-1].join(", ")}, and #{a.last}"
+  end
 end
